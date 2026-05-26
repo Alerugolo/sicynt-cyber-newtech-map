@@ -1,9 +1,9 @@
 import type { SicyntEvent } from "../lib/types";
 import { formatDateRange } from "../lib/dateUtils";
 
-type Props = { event: SicyntEvent };
+type Props = { event: SicyntEvent; compact?: boolean };
 
-export default function EventCard({ event }: Props) {
+export default function EventCard({ event, compact = false }: Props) {
   return (
     <article className="event-card">
       <h3>{event.title}</h3>
@@ -18,7 +18,7 @@ export default function EventCard({ event }: Props) {
           <span className="badge" key={category}>{category}</span>
         ))}
       </div>
-      {event.short_desc ? <p className="event-meta">{event.short_desc}</p> : null}
+      {!compact && event.short_desc ? <p className="event-meta">{event.short_desc}</p> : null}
       <a className="source-link" href={event.source_url} target="_blank" rel="noreferrer">
         Sito ufficiale / fonte
       </a>

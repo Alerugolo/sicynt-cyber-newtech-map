@@ -1,6 +1,6 @@
 # SICYNT Cyber & New Tech Map
 
-MVP v0.1 della mappa pubblica degli eventi Cyber e New Tech in Italia.
+MVP v0.2.0 della mappa pubblica degli eventi Cyber e New Tech in Italia.
 
 ## Stack
 
@@ -10,6 +10,15 @@ MVP v0.1 della mappa pubblica degli eventi Cyber e New Tech in Italia.
 - OpenStreetMap
 - Dataset JSON statico
 - Deploy su Vercel
+
+## Novità v0.2.0
+
+- Header con riferimenti grafici ATENA e SICYNT.
+- Loghi cliccabili verso i siti istituzionali.
+- Sidebar sinistra accorciata con massimo tre eventi in evidenza.
+- Colonna destra desktop con riferimenti promotori e link internazionale.
+- Categoria aggiunta: Webinar aziendale.
+- Layout responsive: la colonna destra scende sotto la mappa su schermi piccoli.
 
 ## Avvio locale
 
@@ -30,6 +39,6 @@ data/events.json
 
 Ogni evento supporta categorie multiple, date di inizio/fine e coordinate geografiche.
 
-## Perimetro v0.1
+## Perimetro
 
-La v0.1 è solo visualizzazione pubblica. Non include login, admin, form, crawler, AI, notifiche, ranking o routing.
+La v0.2.0 resta una visualizzazione pubblica leggera. Non include login, admin, form, crawler, AI, notifiche, ranking o routing.

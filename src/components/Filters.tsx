@@ -3,10 +3,11 @@ type Props = {
   selectedCategories: string[];
   rangeDays: number;
   onToggleCategory: (category: string) => void;
+  onClearCategories: () => void;
   onRangeChange: (days: number) => void;
 };
 
-export default function Filters({ categories, selectedCategories, rangeDays, onToggleCategory, onRangeChange }: Props) {
+export default function Filters({ categories, selectedCategories, rangeDays, onToggleCategory, onClearCategories, onRangeChange }: Props) {
   return (
     <section className="filters">
       <h2>Filtri</h2>
@@ -21,6 +22,9 @@ export default function Filters({ categories, selectedCategories, rangeDays, onT
       <div className="field">
         <label>Categorie</label>
         <div className="category-buttons">
+          <button className={`category-button${selectedCategories.length === 0 ? " active" : ""}`} onClick={onClearCategories} type="button">
+            Tutte
+          </button>
           {categories.map((category) => {
             const active = selectedCategories.includes(category);
             return (
