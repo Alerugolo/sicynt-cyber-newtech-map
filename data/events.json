@@ -2,41 +2,53 @@
   {
     "id": "evt001",
     "title": "Milan0Day 2026",
-    "categories": ["Cybersecurity", "Università/Ricerca"],
+    "categories": [
+      "Cybersecurity",
+      "Università/Ricerca"
+    ],
     "start_date": "2026-05-21",
     "end_date": "2026-05-21",
     "city": "Milano",
     "venue": "Milano",
     "lat": 45.4642,
-    "lon": 9.1900,
+    "lon": 9.19,
     "organizer": "Milan0Day",
     "source_url": "https://www.eventbrite.com/e/milan0day-2026-cybersecurity-conference-tickets-1984064435135",
     "status": "confirmed",
     "short_desc": "Conferenza dedicata alla cybersecurity.",
     "event_type": "conference",
-    "is_online": false
+    "is_online": false,
+    "audience_type": "research"
   },
   {
     "id": "evt002",
     "title": "ItaliaSec 2026",
-    "categories": ["Cybersecurity", "Startup/Business"],
+    "categories": [
+      "Cybersecurity",
+      "Startup/Business"
+    ],
     "start_date": "2026-05-26",
     "end_date": "2026-05-27",
     "city": "Milano",
     "venue": "Milano",
     "lat": 45.4642,
-    "lon": 9.1900,
+    "lon": 9.19,
     "organizer": "Cyber Series",
     "source_url": "https://italy.cyberseries.io/",
     "status": "confirmed",
     "short_desc": "Evento business-oriented dedicato alla sicurezza informatica.",
     "event_type": "conference",
-    "is_online": false
+    "is_online": false,
+    "audience_type": "public"
   },
   {
     "id": "evt003",
     "title": "FORUM PA 2026",
-    "categories": ["PA", "AI", "New Tech"],
+    "categories": [
+      "PA",
+      "AI",
+      "New Tech"
+    ],
     "start_date": "2026-06-09",
     "end_date": "2026-06-11",
     "city": "Roma",
@@ -48,12 +60,16 @@
     "status": "confirmed",
     "short_desc": "Evento dedicato a innovazione, trasformazione digitale e PA.",
     "event_type": "conference",
-    "is_online": false
+    "is_online": false,
+    "audience_type": "institutional"
   },
   {
     "id": "evt004",
     "title": "Cyber Resilience Summit 2026",
-    "categories": ["Cybersecurity", "New Tech"],
+    "categories": [
+      "Cybersecurity",
+      "New Tech"
+    ],
     "start_date": "2026-06-11",
     "end_date": "2026-06-11",
     "city": "Montebelluna",
@@ -65,12 +81,16 @@
     "status": "tentative",
     "short_desc": "Evento indicato come dedicato alla resilienza cyber.",
     "event_type": "conference",
-    "is_online": false
+    "is_online": false,
+    "audience_type": "public"
   },
   {
     "id": "evt005",
     "title": "OWASP Italy Day 2026",
-    "categories": ["Cybersecurity", "Università/Ricerca"],
+    "categories": [
+      "Cybersecurity",
+      "Università/Ricerca"
+    ],
     "start_date": "2026-06-17",
     "end_date": "2026-06-18",
     "city": "Cagliari",
@@ -82,46 +102,58 @@
     "status": "confirmed",
     "short_desc": "Evento OWASP dedicato ad application security e community.",
     "event_type": "conference",
-    "is_online": false
+    "is_online": false,
+    "audience_type": "research"
   },
   {
     "id": "evt006",
     "title": "HackInBo Spring 2026",
-    "categories": ["Cybersecurity", "Crittografia/Crittologia"],
+    "categories": [
+      "Cybersecurity",
+      "Crittografia/Crittologia"
+    ],
     "start_date": "2026-06-20",
     "end_date": "2026-06-20",
     "city": "Bologna",
-    "venue": "Bologna",
+    "venue": "Grand Tour Italia, Bologna",
     "lat": 44.4949,
     "lon": 11.3426,
     "organizer": "HackInBo",
-    "source_url": "https://dicorinto.it/articoli/appuntamenti-cyber-in-italia-2026/",
-    "status": "tentative",
-    "short_desc": "Evento community in ambito cyber.",
+    "source_url": "https://www.hackinbo.it/",
+    "status": "confirmed",
+    "short_desc": "Evento community gratuito dedicato alla sicurezza informatica.",
     "event_type": "conference",
-    "is_online": false
+    "is_online": false,
+    "audience_type": "community"
   },
   {
     "id": "evt007",
-    "title": "Security Summit Rome 2026",
-    "categories": ["Cybersecurity"],
+    "title": "Security Summit Roma 2026",
+    "categories": [
+      "Cybersecurity"
+    ],
     "start_date": "2026-06-23",
     "end_date": "2026-06-23",
     "city": "Roma",
-    "venue": "Roma",
+    "venue": "Hotel Villa Pamphili Roma",
     "lat": 41.9028,
     "lon": 12.4964,
-    "organizer": "Da verificare",
-    "source_url": "https://10times.com/italy/security",
-    "status": "tentative",
-    "short_desc": "Evento indicato in calendario security per l'Italia.",
+    "organizer": "Clusit / Astrea",
+    "source_url": "https://securitysummit.it/",
+    "status": "confirmed",
+    "short_desc": "Tappa romana del Security Summit dedicata alla cybersecurity.",
     "event_type": "conference",
-    "is_online": false
+    "is_online": false,
+    "audience_type": "public"
   },
   {
     "id": "evt008",
     "title": "WMF - We Make Future 2026",
-    "categories": ["AI", "New Tech", "Startup/Business"],
+    "categories": [
+      "AI",
+      "New Tech",
+      "Startup/Business"
+    ],
     "start_date": "2026-06-24",
     "end_date": "2026-06-26",
     "city": "Bologna",
@@ -133,6 +165,276 @@
     "status": "confirmed",
     "short_desc": "Fiera internazionale su AI, digitale, startup e innovazione.",
     "event_type": "conference",
-    "is_online": false
+    "is_online": false,
+    "audience_type": "public"
+  },
+  {
+    "id": "evt009",
+    "title": "ESORICS 2026",
+    "categories": [
+      "Cybersecurity",
+      "Università/Ricerca"
+    ],
+    "start_date": "2026-09-14",
+    "end_date": "2026-09-18",
+    "city": "Roma",
+    "venue": "Sapienza Università di Roma, Città Universitaria",
+    "lat": 41.9027,
+    "lon": 12.5156,
+    "organizer": "ESORICS / Sapienza Università di Roma",
+    "source_url": "https://sites.google.com/di.uniroma1.it/esorics2026/",
+    "status": "confirmed",
+    "short_desc": "Conferenza europea di ricerca sulla sicurezza informatica.",
+    "event_type": "conference",
+    "is_online": false,
+    "audience_type": "research"
+  },
+  {
+    "id": "evt011",
+    "title": "STM 2026 @ ESORICS",
+    "categories": [
+      "Cybersecurity",
+      "Crittografia/Crittologia",
+      "Università/Ricerca"
+    ],
+    "start_date": "2026-09-14",
+    "end_date": "2026-09-18",
+    "city": "Roma",
+    "venue": "Sapienza Università di Roma",
+    "lat": 41.9027,
+    "lon": 12.5156,
+    "organizer": "STM / ESORICS",
+    "source_url": "https://www.nics.uma.es/stm2026/",
+    "status": "confirmed",
+    "short_desc": "Workshop internazionale su security and trust management, co-locato con ESORICS 2026.",
+    "event_type": "workshop",
+    "is_online": false,
+    "audience_type": "research"
+  },
+  {
+    "id": "evt010",
+    "title": "RAISE 2026 @ ESORICS",
+    "categories": [
+      "AI",
+      "Cybersecurity",
+      "Università/Ricerca"
+    ],
+    "start_date": "2026-09-17",
+    "end_date": "2026-09-18",
+    "city": "Roma",
+    "venue": "Sapienza Università di Roma",
+    "lat": 41.9027,
+    "lon": 12.5156,
+    "organizer": "RAISE / ESORICS",
+    "source_url": "https://www.grin-informatica.it/1st-workshop-on-real-world-ai-security-and-engineering-for-cybersecurity-systems-raise-2026-co-located-with-esorics-2026-rome-italy-september-17-18-2026/",
+    "status": "confirmed",
+    "short_desc": "Workshop su AI security ed engineering per sistemi di cybersecurity, co-locato con ESORICS 2026.",
+    "event_type": "workshop",
+    "is_online": false,
+    "audience_type": "research"
+  },
+  {
+    "id": "evt012",
+    "title": "Rome Future Week 2026",
+    "categories": [
+      "AI",
+      "New Tech",
+      "Startup/Business"
+    ],
+    "start_date": "2026-09-21",
+    "end_date": "2026-09-27",
+    "city": "Roma",
+    "venue": "Roma, sedi diffuse",
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "organizer": "Rome Future Week",
+    "source_url": "https://romefutureweek.it/",
+    "status": "confirmed",
+    "short_desc": "Festival diffuso dedicato a futuro, innovazione, tecnologia e trasformazione digitale.",
+    "event_type": "festival",
+    "is_online": false,
+    "audience_type": "public"
+  },
+  {
+    "id": "evt013",
+    "title": "Security Summit OT 2026",
+    "categories": [
+      "Cybersecurity",
+      "Difesa",
+      "PA"
+    ],
+    "start_date": "2026-09-24",
+    "end_date": "2026-09-24",
+    "city": "Milano",
+    "venue": "UNAHOTELS Expo Fiera Milano",
+    "lat": 45.5212,
+    "lon": 9.0875,
+    "organizer": "Clusit / Astrea",
+    "source_url": "https://securitysummit.it/",
+    "status": "confirmed",
+    "short_desc": "Verticale Security Summit dedicato alla sicurezza OT.",
+    "event_type": "conference",
+    "is_online": false,
+    "audience_type": "institutional"
+  },
+  {
+    "id": "evt014",
+    "title": "RomHack Camp 2026",
+    "categories": [
+      "Cybersecurity",
+      "New Tech"
+    ],
+    "start_date": "2026-10-02",
+    "end_date": "2026-10-04",
+    "city": "Roma",
+    "venue": "Flaminio Village",
+    "lat": 41.973,
+    "lon": 12.483,
+    "organizer": "RomHack",
+    "source_url": "https://romhack.io/",
+    "status": "confirmed",
+    "short_desc": "Camp community con attività auto-organizzate, discussioni tecniche e networking informale.",
+    "event_type": "camp",
+    "is_online": false,
+    "audience_type": "community"
+  },
+  {
+    "id": "evt015",
+    "title": "PECB Conference Rome 2026",
+    "categories": [
+      "Cybersecurity",
+      "Startup/Business"
+    ],
+    "start_date": "2026-10-05",
+    "end_date": "2026-10-08",
+    "city": "Roma",
+    "venue": "Roma",
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "organizer": "PECB",
+    "source_url": "https://pecb.com/en/events-and-conferences",
+    "status": "confirmed",
+    "short_desc": "Conferenza internazionale PECB su cybersecurity, compliance e gestione del rischio.",
+    "event_type": "conference",
+    "is_online": false,
+    "audience_type": "public"
+  },
+  {
+    "id": "evt016",
+    "title": "Cybertech Europe 2026",
+    "categories": [
+      "Cybersecurity",
+      "AI",
+      "Startup/Business"
+    ],
+    "start_date": "2026-10-13",
+    "end_date": "2026-10-14",
+    "city": "Roma",
+    "venue": "La Nuvola Convention Center",
+    "lat": 41.835,
+    "lon": 12.47,
+    "organizer": "Cybertech",
+    "source_url": "https://italy.cybertechconference.com/",
+    "status": "confirmed",
+    "short_desc": "Conferenza ed esposizione europea su cybersecurity, innovazione, AI e resilienza cyber.",
+    "event_type": "conference",
+    "is_online": false,
+    "audience_type": "public"
+  },
+  {
+    "id": "evt017",
+    "title": "Security Summit Verona 2026",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "start_date": "2026-10-28",
+    "end_date": "2026-10-28",
+    "city": "Verona",
+    "venue": "Crowne Plaza Verona - Fiera",
+    "lat": 45.4036,
+    "lon": 10.982,
+    "organizer": "Clusit / Astrea",
+    "source_url": "https://securitysummit.it/",
+    "status": "confirmed",
+    "short_desc": "Tappa veronese del Security Summit 2026.",
+    "event_type": "conference",
+    "is_online": false,
+    "audience_type": "public"
+  },
+  {
+    "id": "evt018",
+    "title": "Forum ICT Security 2026",
+    "categories": [
+      "Cybersecurity",
+      "PA",
+      "Startup/Business"
+    ],
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-19",
+    "city": "Roma",
+    "venue": "Auditorium della Tecnica",
+    "lat": 41.8358,
+    "lon": 12.4706,
+    "organizer": "ICT Security Magazine",
+    "source_url": "https://eventi.ictsecuritymagazine.com/",
+    "status": "confirmed",
+    "short_desc": "Evento di riferimento su cybersecurity, governance, imprese, istituzioni e ricerca.",
+    "event_type": "conference",
+    "is_online": false,
+    "audience_type": "institutional"
+  },
+ {
+    "id": "evt019",
+    "title": "The SOC Reimagined: One Platform, Unified, Powered by Agentic AI",
+    "categories": ["Cybersecurity", "AI", "Webinar aziendale"],
+    "start_date": "2026-06-17",
+    "end_date": "2026-06-17",
+    "city": "Online",
+    "venue": "Online",
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "organizer": "Fortinet",
+    "source_url": "https://www.fortinet.com/corporate/about-us/events",
+    "status": "confirmed",
+    "short_desc": "Webinar Fortinet su SOC cloud-delivered e Agentic AI.",
+    "event_type": "webinar",
+    "audience_type": "vendor",
+    "is_online": true
+  },
+  {
+    "id": "evt020",
+    "title": "Cisco Secure Access live demo",
+    "categories": ["Cybersecurity", "Webinar aziendale"],
+    "start_date": "2026-06-30",
+    "end_date": "2026-06-30",
+    "city": "Online",
+    "venue": "Online",
+    "lat": 45.4642,
+    "lon": 9.19,
+    "organizer": "Cisco",
+    "source_url": "https://www.cisco.com/site/us/en/products/security/webinars.html",
+    "status": "tentative",
+    "short_desc": "Demo online Cisco Secure Access per protezione dell’accesso ad applicazioni e risorse.",
+    "event_type": "webinar",
+    "audience_type": "vendor",
+    "is_online": true
+  },
+  {
+    "id": "evt021",
+    "title": "Cisco Industrial Insider: Detecting OT protocol threats",
+    "categories": ["Cybersecurity", "Difesa", "Webinar aziendale"],
+    "start_date": "2026-06-11",
+    "end_date": "2026-06-11",
+    "city": "Online",
+    "venue": "Online",
+    "lat": 44.4949,
+    "lon": 11.3426,
+    "organizer": "Cisco",
+    "source_url": "https://www.cisco.com/site/us/en/products/networking/industrial-iot/industrial-insiders.html",
+    "status": "confirmed",
+    "short_desc": "Webinar Cisco su minacce OT/ICS e funzionalità di sicurezza nei router industriali.",
+    "event_type": "webinar",
+    "audience_type": "vendor",
+    "is_online": true
   }
 ]

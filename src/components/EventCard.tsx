@@ -3,6 +3,15 @@ import { formatDateRange } from "../lib/dateUtils";
 
 type Props = { event: SicyntEvent; compact?: boolean };
 
+function audienceLabel(event: SicyntEvent) {
+  if (event.audience_type === "vendor" || event.categories.includes("Webinar aziendale") || event.event_type === "webinar") {
+    return "Aziendale aperto al pubblico";
+  }
+  if (event.audience_type === "research" || event.categories.includes("Università/Ricerca")) return "Ricerca/community";
+  if (event.audience_type === "institutional" || event.categories.includes("PA")) return "Istituzionale/PA";
+  return "Pubblico";
+}
+
 export default function EventCard({ event, compact = false }: Props) {
   return (
     <article className="event-card">
@@ -14,6 +23,7 @@ export default function EventCard({ event, compact = false }: Props) {
         {event.organizer ? `Organizzatore: ${event.organizer}` : ""} · Stato: {event.status}
       </div>
       <div className="badges">
+        <span className={`badge audience-badge audience-${event.audience_type ?? "public"}`}>{audienceLabel(event)}</span>
         {event.categories.map((category) => (
           <span className="badge" key={category}>{category}</span>
         ))}

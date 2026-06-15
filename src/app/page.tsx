@@ -22,10 +22,10 @@ export default function Home() {
       <header className="header">
         <div className="header-main">
           <a className="brand-mark" href="https://sicynt.org/" target="_blank" rel="noreferrer" aria-label="Vai al sito SICYNT">
-            <Image src="/logo-sicynt.jpg" alt="Logo SICYNT" width={64} height={64} priority />
+            <Image src="/logo-sicynt.jpg" alt="Logo SICYNT" width={56} height={56} priority />
           </a>
           <div className="title-block">
-            <h1>SICYNT Cyber & New Tech Map <span>MVP v0.2.0</span></h1>
+            <h1>SICYNT Cyber & New Tech Map <span>MVP v0.2.2</span></h1>
             <p>
               Mappa sperimentale degli eventi Cyber e New Tech in Italia: visualizzazione pubblica,
               dataset manuale, filtro temporale e riferimenti utili per il contesto internazionale.
@@ -34,7 +34,7 @@ export default function Home() {
           <nav className="partner-strip" aria-label="Riferimenti progetto">
             {partners.map((partner) => (
               <a className="partner-logo" href={partner.href} target="_blank" rel="noreferrer" key={partner.name}>
-                <Image src={partner.src} alt={partner.alt} width={84} height={84} />
+                <Image src={partner.src} alt={partner.alt} width={66} height={66} />
                 <span>{partner.name}</span>
               </a>
             ))}
@@ -48,7 +48,7 @@ export default function Home() {
           La piattaforma non utilizza sistemi proprietari di profilazione, marketing o analytics. Alcuni componenti esterni,
           come le mappe, possono generare richieste tecniche verso servizi terzi.
         </span>
-        <span className="footer-links">Privacy e note di utilizzo · MVP v0.2.0</span>
+        <span className="footer-links">Privacy e note di utilizzo · MVP v0.2.2</span>
       </footer>
     </main>
   );

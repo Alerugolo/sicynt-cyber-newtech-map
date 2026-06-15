@@ -1,4 +1,5 @@
 export type EventStatus = "confirmed" | "tentative" | "cancelled";
+export type AudienceType = "public" | "vendor" | "community" | "research" | "institutional";
 
 export type SicyntEvent = {
   id: string;
@@ -16,4 +17,5 @@ export type SicyntEvent = {
   short_desc?: string;
   event_type?: string;
   is_online?: boolean;
+  audience_type?: AudienceType;
 };

@@ -191,6 +191,17 @@ select {
 .promo-item .promo-subtitle { color: var(--brand); font-weight: 700; margin-top: 0; }
 .promo-item span, .international-link em { color: var(--accent); font-size: 13px; font-style: normal; font-weight: 700; }
 
+.compact-promo-panel { gap: 12px; }
+.compact-promo-item {
+  grid-template-columns: 52px 1fr;
+  gap: 10px;
+  padding-bottom: 12px;
+}
+.compact-promo-item h3 { font-size: 18px; letter-spacing: 0.03em; }
+.compact-promo-item p { font-size: 12.5px; line-height: 1.35; }
+.compact-promo-item .promo-subtitle { margin-bottom: 2px; }
+.compact-promo-item span { font-size: 12.5px; }
+
 .international-link {
   display: grid;
   gap: 6px;
@@ -201,6 +212,60 @@ select {
 }
 .international-link strong { color: var(--accent); }
 .international-link span { color: var(--muted); font-size: 13px; line-height: 1.45; }
+
+/* Marker differenziati per natura dell'evento */
+.sicynt-marker-wrapper { background: transparent; border: 0; }
+.sicynt-marker {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: var(--marker-color, #173f5f);
+  border: 3px solid #fff;
+  border-radius: 999px 999px 999px 0;
+  transform: rotate(-45deg);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.28);
+}
+.sicynt-marker::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.map-legend {
+  position: absolute;
+  z-index: 500;
+  right: 18px;
+  bottom: 18px;
+  display: grid;
+  gap: 6px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.94);
+  box-shadow: 0 8px 24px rgba(22, 32, 51, 0.12);
+  color: var(--muted);
+  font-size: 12px;
+}
+.map-legend span { display: flex; align-items: center; gap: 7px; }
+.legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+}
+.legend-public { background: #173f5f; }
+.legend-vendor { background: #f59e0b; }
+.legend-research { background: #16a34a; }
+.legend-institutional { background: #2563eb; }
+.audience-badge { background: #f3f4f6; color: var(--foreground); }
+.audience-vendor { background: #fff4df; color: #92400e; }
+.audience-research { background: #eaf8ef; color: #166534; }
+.audience-institutional { background: #eaf2ff; color: #1d4ed8; }
 
 .disclaimer {
   max-width: 1440px;

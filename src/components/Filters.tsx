@@ -17,6 +17,8 @@ export default function Filters({ categories, selectedCategories, rangeDays, onT
           <option value={30}>Prossimi 30 giorni</option>
           <option value={60}>Prossimi 60 giorni</option>
           <option value={90}>Prossimi 90 giorni</option>
+          <option value={180}>Prossimi 180 giorni</option>
+          <option value={365}>Fino a fine anno</option>
         </select>
       </div>
       <div className="field">

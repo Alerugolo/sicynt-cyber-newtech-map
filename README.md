@@ -1,6 +1,6 @@
 # SICYNT Cyber & New Tech Map
 
-MVP v0.2.0 della mappa pubblica degli eventi Cyber e New Tech in Italia.
+MVP v0.2.2 della mappa pubblica degli eventi Cyber e New Tech in Italia.
 
 ## Stack
 
@@ -42,3 +42,11 @@ Ogni evento supporta categorie multiple, date di inizio/fine e coordinate geogra
 ## Perimetro
 
 La v0.2.0 resta una visualizzazione pubblica leggera. Non include login, admin, form, crawler, AI, notifiche, ranking o routing.
+
+
+## Aggiornamento v0.2.2
+
+- Aggiunto campo opzionale `audience_type` per distinguere eventi pubblici, aziendali/vendor, ricerca/community e istituzionali.
+- Marker mappa differenziati per colore.
+- Aggiunta legenda marker sulla mappa.
+- Aggiunto badge di natura evento nelle card.
